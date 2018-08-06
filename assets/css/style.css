@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-image: url("../../assets/images/Fog.png");
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 14px;
+  }
+  
+  h1, h2 {
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+  }
+  
+  .container {
+      width: 100%;
+      max-width: 950px;
+      margin: 0 auto;
+  }
+  
+  #space {
+      margin-top: 15px;
+  }
+  
+  .footer {
+      right: 10%;
+      left: 10%;
+      bottom: -5%;
+      position: absolute;
+      background: rgba(92, 159, 214, 0.233);
+      text-align: center;
+      font-size: 10px;
+      color: black;
+        padding: 1rem;
+  }
+  
+  .thumbnail {
+      background-color: #fff0;
+      border: none;
+  }
+
+  .list-group-item {
+      background-color: #9adeff47;
+  }
+  /*MEDIA QUERIES*/
+  
+  @media screen and (max-width: 980px){
+      #psychic-image {
+          margin-left: 175px;
+      }
+  
+      #psychic {
+          margin-left: 165px;
+      }
+  
+      #psychics-image {
+          margin-right: 180px;
+      }
+  
+  }
+  
+  
+  @media only screen and (max-width: 768px){
+  
+      #psychic {
+          margin-left: 170px;
+      }
+  
+  }
+  
+  
+  @media only screen and (max-width: 640px){
+  
+      h2 {
+          margin-left: 70px;
+      }
+  
+      #psychic-image {
+          margin-left: 150px;
+      }
+  
+      #psychic {
+          margin-left: 145px;
+      }
+  
+      #psychics-image {
+          margin-right: 100px;
+      }
+  
+  }
+
+  .align {
+      padding-left: 25px;
+  }
